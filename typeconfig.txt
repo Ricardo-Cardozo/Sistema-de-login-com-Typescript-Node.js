@@ -1,0 +1,24 @@
+Certifique-se de ter o Node.js e o npm (gerenciador de pacotes do Node.js) instalados em sua máquina.
+
+Instale o TypeScript globalmente usando o comando npm install -g typescript.
+
+Crie um novo diretório para seu projeto e inicialize o npm com o comando npm init. Isso criará um arquivo package.json no diretório.
+
+Crie um arquivo de configuração TypeScript com o comando tsc --init. Isso criará um arquivo tsconfig.json no diretório.
+
+Escreva seu código TypeScript em arquivos com a extensão .ts e execute o comando tsc para compilar seu código para JavaScript.
+
+Execute seu código JavaScript usando o Node.js com o comando node nome_do_arquivo.js
+
+Utilize algum gerenciador de dependências do projeto como o npm ou yarn para instalar as dependências de node.js.
+
+Use algum framework ou biblioteca como o Express ou o Nest.js para construir seus projetos em node.js com typescript.
+
+Lembre-se de que é importante ler e seguir as documentações das bibliotecas e frameworks que você estiver usando para garantir que você esteja usando-os corretamente.
+
+=======================================================================================================
+ npm i --save-dev @types/express @types/node ts-node nodemon @types/mongoose typescript
+ npm i --save cors express mongoose
+ ======================================================================================================
+- após innstalar as dependências configurar o arquivo tsconfig.json para usar com o node
+- após criar a pasta nodemon.json para configurar o nodemon com o typescript
